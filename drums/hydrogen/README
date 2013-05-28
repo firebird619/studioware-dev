@@ -1,0 +1,20 @@
+Hydrogen ( Advanced drum machine )
+
+Hydrogen is an advanced drum machine for GNU/Linux. It's main goal is to bring professional yet simple and intuitive pattern-based drum programming. 
+
+Optional deps for hydrogen are: 
+jack-audio-connection-kit (optional, default=yes)
+lash (optional, default=yes)
+portaudio (optional, default=yes)
+portmidi (optional, default=yes)
+
+Optional deps can be set with the following flags:
+
+JACK=yes|no
+LASH=yes|no
+PORTAUDIO=yes|no
+
+PORTAUDIO=yes enables portmidi support.
+
+*Note: if portaudio was built with jack support then
+hydrogen will require it too.

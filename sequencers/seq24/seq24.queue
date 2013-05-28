@@ -1,0 +1,9 @@
+libsigc++
+glibmm
+graphviz
+cairomm
+mm-common
+pangomm
+atkmm
+gtkmm
+seq24
